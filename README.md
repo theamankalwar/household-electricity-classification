@@ -1,5 +1,24 @@
-
 # Household Electricity Consumption Analysis and Classification
+
+## 🚀 Live Demo
+
+Try the interactive application:
+
+**[Open Household Electricity Classifier](https://household-electricity-classification.streamlit.app/)**
+
+## 📊 Project Preview
+
+### Daily Electricity Consumption
+
+![Daily electricity consumption](assets/daily_consumption.png)
+
+### Consumption by Hour
+
+![Hourly electricity consumption](assets/hourly_consumption.png)
+
+### Model Comparison
+
+![Model accuracy comparison](assets/model_comparison.png)
 
 A Python-based data science project that analyzes household electricity consumption and classifies observations into **High** and **Low** consumption categories using machine learning.
 
@@ -43,10 +62,10 @@ The raw dataset is not included in this repository.
 
 ## Preliminary Results
 
-| Model | Test Accuracy |
-|---|---:|
-| Decision Tree | 99.17% |
-| Logistic Regression | 99.24% |
+| Model               | Test Accuracy |
+| ------------------- | ------------: |
+| Decision Tree       |        99.17% |
+| Logistic Regression |        99.24% |
 
 These are results from the current experiment using a random 80/20 split of a 100,000-record sample.
 
