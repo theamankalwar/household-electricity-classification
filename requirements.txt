@@ -1,25 +1,6 @@
-python - <<'PY'
-from pathlib import Path
 streamlit==1.65.0
 numpy==2.5.4
 pandas==3.0.6
 scikit-learn==1.9.1
 joblib==1.6.0
 matplotlib==3.11.2
-
-
-packages = [
-    f"streamlit=={streamlit.__version__}",
-    f"pandas=={pandas.__version__}",
-    f"numpy=={numpy.__version__}",
-    f"scikit-learn=={sklearn.__version__}",
-    f"joblib=={joblib.__version__}",
-    f"matplotlib=={matplotlib.__version__}",
-]
-
-Path("requirements.txt").write_text(
-    "\n".join(packages) + "\n"
-)
-
-print(Path("requirements.txt").read_text())
-PY
